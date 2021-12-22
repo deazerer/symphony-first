@@ -4,5 +4,18 @@
 # index:
 #     path: /lucky/number
 #     controller: App\Controller\LuckyController::number
+meter:
+ path: /meterdatatech
+ controller: App\Controller\MeterController::show
 
+counter:
+ path: /counter
+ controller: App\Controller\CounterController::show
 
+choose:
+ path: /choosedate
+ controller: App\Controller\ChooseDateController::display
+
+stress:
+ path: /stress
+ controller: App\Controller\StressController::display
